@@ -8,6 +8,7 @@
 	<p>
 		y: {{ y }}
 	</p>
+	<div class="box" :style="{ transform: `translate(${x}px, ${y}px)` }"></div>
 </template>
 
 <script lang="ts">
@@ -47,5 +48,12 @@ export default defineComponent({
 </script>
 
 <style scoped>
-
+.box {
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
 </style>
