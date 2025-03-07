@@ -139,6 +139,7 @@ h2 {
 	width: 100px;
 	height: 100px;
 	background-color: lime;
+    z-index: 10;
 }
 
 .snap-toggle {
